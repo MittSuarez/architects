@@ -22,3 +22,21 @@ console.log("Un litro a Decilitros es: ", decilitros);
 console.log("Un litro a Galones es: ", galones);
 console.log("Un litro a Onzas es: ", onzas);
 
+
+// 2. Realizar el algoritmo que realice las 4 operaciones básicas para dos números de entrada
+
+let num1 = 5;
+let num2 = 2;
+
+const suma = num1 + num2;
+const resta = num1 - num2;
+const multiplicacion = num1 * num2;
+const division = num1 / num2;
+
+console.log("Suma: ", suma);
+console.log("Resta: ", resta);
+console.log("Multiplicación: ", multiplicacion);
+console.log("División: ", division);
+
+
+

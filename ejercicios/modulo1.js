@@ -3,7 +3,7 @@
 let litro = 5;
 const litrosToCentilitros = litro * 100;
 
-console.log('Texto cualquiera', litrosToCentilitros);
+console.log("Texto cualquiera", litrosToCentilitros);
 
 
 // EJERCICIOS EN JAVASCRIPT
@@ -25,8 +25,8 @@ console.log("Un litro a Onzas es: ", onzas);
 
 // 2. Realizar el algoritmo que realice las 4 operaciones básicas para dos números de entrada
 
-let num1 = 5;
-let num2 = 2;
+let num1 = prompt("Ingresa el primer numero");
+let num2 = prompt("Ingresa el segundo numero");
 
 const suma = num1 + num2;
 const resta = num1 - num2;
@@ -37,6 +37,26 @@ console.log("Suma: ", suma);
 console.log("Resta: ", resta);
 console.log("Multiplicación: ", multiplicacion);
 console.log("División: ", division);
+
+
+//Realizar el algoritmo que convierta grados centígrados en Fahrenheit y viceversa
+
+let grados = 100;
+let temperatura = prompt("Ingrese la letra C para centigrados y F para Fahrenheit");
+
+if (temperatura === "C" || temperatura === "c") {
+    var resultado = grados * 9/5 + 32;
+    var unidadIncial = "centígrados";
+    var unidadFinal = "Fahrenheit";
+} else if (temperatura === "F" || temperatura === "f") {
+    var resultado = (grados - 32) * 5/9;
+    var unidadInicial = "Fahrenheit";
+    var unidadFinal = "centígrados";
+}
+
+console.log("La conversión de ",grados," grados ",unidadInicial," a ",unidadFinal," es: ",resultado);
+
+
 
 
 

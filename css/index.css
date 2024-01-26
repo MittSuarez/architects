@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');              
+
+/* Seccion 01 slide */
+.index-sec-01 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Seccion 02 banner */
+.index-sec-02{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Seccion 03 texto informativo */
+.index-sec-03{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.index-sec-03 h3{
+    font-size: 64px;
+    color: #BDBDBD;
+    padding-bottom: 60px;
+}
+
+.index-sec-03 p{
+    font-size: 22px;
+}
+.index-sec-03-text-2{
+    padding-left: 30px;
+}
+
+/* Seccion 04 galeria de imagenes */
+.index-sec-04{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Seccion 05 formulario */
+.index-sec-05{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

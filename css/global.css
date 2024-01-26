@@ -1,7 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
 * {
     padding: 0px;
     margin: 0px;
 }
+
+body {
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+}
+
 
 .navbar-brand {
     font-size: 30px;
@@ -12,4 +20,70 @@
     align-items: end;
     justify-content: space-between;
     padding: 0px 20px;
+}
+
+/* Seccion header */
+.sec-header{
+
+}
+
+.sec-header img{
+    height: 43.71px;
+}
+
+.sec-header li{
+    margin-right: 50px;
+}
+
+
+
+/* Seccion footer */
+footer{
+    background: #2C2C2C;
+    color: #fff;
+}
+
+.sec-footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.sec-footer h6{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.sec-footer img{
+    height: 94px;
+}
+
+.sec-footer ul {
+    padding-left: 0;
+}
+
+.sec-footer li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.sec-footer p{
+    padding-bottom: 20px;
+}
+
+.sec-footer span i{
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 23px;
+}
+
+/* Seccion Copyright */
+.sec-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-copyright p{
+    text-align: center;
+    color: #C8C8C8;
+    opacity: 0.5;
 }

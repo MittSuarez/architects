@@ -39,7 +39,7 @@ console.log("Multiplicación: ", multiplicacion);
 console.log("División: ", division);
 
 
-//Realizar el algoritmo que convierta grados centígrados en Fahrenheit y viceversa
+// 3. Realizar el algoritmo que convierta grados centígrados en Fahrenheit y viceversa
 
 let grados = 100;
 let temperatura = prompt("Ingrese la letra C para centigrados y F para Fahrenheit");
@@ -54,8 +54,19 @@ if (temperatura === "C" || temperatura === "c") {
     var unidadFinal = "centígrados";
 }
 
-console.log("La conversión de ",grados," grados ",unidadInicial," a ",unidadFinal," es: ",resultado);
+console.log("La conversión de " + grados + " grados " + unidadInicial + " a " + unidadFinal + " es: " + resultado);
 
+
+// 4. Realizar el algoritmo que calcule el valor a pagar por algunos galones de gasolina si sabemos que cada centilitro cuesta 25 pesos. Imprimir el valor a pagar y la cantidad de gasolina despachada en litros
+
+var gasGalones = 10; 
+
+var gasLitros = gasGalones * 3.78541;
+var gasCentilitros = gasLitros * 100;
+var costo = gasCentilitros * 25;
+
+console.log("El costo de " + gasGalones + " galones de gasolina es: " + costo + " pesos");
+console.log("La cantidad de gasolina despachada es: " + gasLitros + " litros");
 
 
 

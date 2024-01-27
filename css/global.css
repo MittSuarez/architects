@@ -10,6 +10,11 @@ body {
     font-family: 'TT Hoves Pro Trial', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .navbar-brand {
     font-size: 30px;
     padding: 0px 20px;
@@ -92,6 +97,15 @@ h3{
 
 .sec-header li{
     margin-right: 50px;
+}
+
+.linea-menu{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
 }
 
 /* Seccion footer */

@@ -58,7 +58,6 @@
     padding-left: 120px;
 }
 
-
 /* Seccion 03 texto informativo */
 .index-sec-03{
     padding-top: 60px;
@@ -76,6 +75,31 @@
 .index-sec-04{
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.index-sec-04-cont-galeria{
+    position: relative; 
+    display: inline-block;
+}
+
+.index-sec-04-fondo-text{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.index-sec-04-img{
+    padding-left: 72px;
+}
+
+.index-sec-04-bnt{
+    margin-top: 50px;
+}
+
+.index-sec-04-imgs{
+    padding-top: 50px;
+    padding-right: 50px;
 }
 
 /* Seccion 05 formulario */

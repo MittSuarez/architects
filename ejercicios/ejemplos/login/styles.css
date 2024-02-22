@@ -1,0 +1,8 @@
+.error {
+    display: none;
+}
+
+.mostrarMensaje {
+    color: red;
+    display: block;
+}

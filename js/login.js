@@ -113,12 +113,12 @@ function envioDeFormulario(event){
             const msj = document.querySelectorAll('#msj');
             msj.forEach(msj => msj.remove());
 
-            const otraCosa = document.querySelector('#containermsj');
+            const containerMsj = document.querySelector('#containermsj');
             const textoMensaje = 'Para ingresar a la cuenta debe logearse correctamente, corrige los datos para ingresar usando el email: usuario_uno@mail.com y contraseña: 5Z@1cGw68';
 
             const contenedorMensaje = document.createElement('p')
             contenedorMensaje.innerText = textoMensaje;
-            otraCosa.appendChild(contenedorMensaje);
+            containerMsj.appendChild(contenedorMensaje);
         }
     }
 

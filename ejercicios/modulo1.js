@@ -46,7 +46,7 @@ let temperatura = prompt("Ingrese la letra C para centigrados y F para Fahrenhei
 
 if (temperatura === "C" || temperatura === "c") {
     var resultado = grados * 9/5 + 32;
-    var unidadIncial = "centígrados";
+    var unidadInicial = "centígrados";
     var unidadFinal = "Fahrenheit";
 } else if (temperatura === "F" || temperatura === "f") {
     var resultado = (grados - 32) * 5/9;

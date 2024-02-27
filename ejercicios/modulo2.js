@@ -1,13 +1,70 @@
 // 1. Realizar un programa que permita generar 100 números e imprimir solo los números pares
 
+function numerosPares(){
+    for (let i = 1; i <= 100; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+    }
+}
+
+numerosPares();
+
 
 // 2. Realizar un programa que permita sumar los 150 primeros números
+
+function sumaNumeros(){
+    const suma = (150 * (150 + 1)) / 2;
+    return suma;
+}
+
+const sumatoria = sumaNumeros();
+console.log('La suma de los primeros 150 números es: ' + sumatoria);
 
 
 // 3. Leer 10 precios de productos y calcular cuánto cuestan los 10 productos
 
+function calcularPedido() {
+    let total = 0;
+
+    for (let i = 1; i <= 10; i++) {
+        const precio = parseFloat(prompt('Ingresa el precio del producto ' + i + ':'));
+        total += precio;
+    }
+
+    return total;
+}
+
+const valorProductos = calcularPedido();
+console.log('El valor total de los 10 productos que va ha comprar es: ' + valorProductos);
+
 
 // 4. Leer 12 notas de estudiantes y determinar cuántas aprobó y cuantas reprobó, dado un rango 0 a 10, reprueba cuando la nota está entre 0 y 5
+
+function contarNotas(notas) {
+    let aprobadas = 0;
+    let reprobadas = 0;
+
+    for (let i = 0; i < notas.length; i++) {
+        const nota = parseFloat(notas[i]);
+
+        if (nota > 5) {
+            aprobadas++;
+        } else {
+            reprobadas++;
+        }
+    }
+
+    console.log('Estudiantes aprobados: ' + aprobadas);
+    console.log('Estudiantes reprobados: ' + reprobadas);
+}
+
+const notasEstudiantes = [
+    "7.5", "8", "4.2", "6.8", "9.3", "3.7",
+    "5.1", "7.2", "2.9", "6", "1", "5"
+];
+
+contarNotas(notasEstudiantes);
 
 
 // 5. Leer los primeros 50 números y contar cuantos múltiplos de 3 hay, imprimir la cantidad

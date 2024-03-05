@@ -1,5 +1,13 @@
+//import * as users from './users.js';
+
+console.log(users.users);
+
 class ManejadorDeSesion {
     constructor(){
+        // this.users = users;
+        // console.log(this.users)
+        // this.email = this.users
+        
         this.users = [
             {
                 nameObjeto: "Usuario Uno",
@@ -14,6 +22,12 @@ class ManejadorDeSesion {
         ]
     }
 
+    // autenticacion(userEmail, userPassword){
+    //     return this.users.some(
+    //         info => info.emailObjeto === userEmail 
+    //         && info.passwordObjeto === userPassword
+    //     )
+    // }
     autenticacion(userEmail, userPassword){
         return this.users.some(
             info => info.emailObjeto === userEmail 
@@ -98,14 +112,14 @@ function envioDeFormulario(event){
 
     const selectForm = document.getElementById('login')
     const validacionDeCampos = new ValidacionFormulario(selectForm)
-    const inicioSesion = new ManejadorDeSesion();
+    const inicioSesion = new ManejadorDeSesion(users);
 
     const userEmail = document.getElementById('email').value;
     const userPassword = document.getElementById('password').value;
 
     if(validacionDeCampos.validarFormulario()){
         if(inicioSesion.autenticacion(userEmail, userPassword)){
-            //console.log("Autenticacion exitosa");
+            console.log("Autenticacion exitosa");
             localStorage.setItem('email', userEmail);
             window.location.href = "/account.html";
         } else {

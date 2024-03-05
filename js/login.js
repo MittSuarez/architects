@@ -10,6 +10,11 @@ class ManejadorDeSesion {
                 nameObjeto: "Usuario Dos",
                 emailObjeto: "usuario_dos@mail.com",
                 passwordObjeto: "wT95!:4/6"
+            },
+            {
+                nameObjeto: "Usuario Tres",
+                emailObjeto: "usuario_tres@mail.com",
+                passwordObjeto: "15}a$cHT7"
             }
         ]
     }

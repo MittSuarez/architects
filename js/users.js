@@ -13,8 +13,8 @@ export const users = [
     },
     {
         "nombre": "Usuario Tres",
-        "precio": "usuario_tres@mail.com",
-        "pass": "Lj1\v07$l",
+        "email": "usuario_tres@mail.com",
+        "pass": "15}a$cHT7",
         "descripcion": "Lorem Ipsum tarjeta permuta"
     },
 ]
